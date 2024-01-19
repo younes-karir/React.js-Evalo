@@ -11,6 +11,7 @@ const protect = asyncHandler(async (req, res, next) => {
     try {
       // get token from header
       // token = req.headers.authorization.split(" ")[1];
+      
       token = req.headers.authorization;
 
       // virefy token

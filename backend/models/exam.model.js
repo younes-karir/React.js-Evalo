@@ -10,6 +10,7 @@ function getCurrentDate() {
   return `${date}/${month}/${year}`;
 }
 
+
 const ExamSchema = new Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
