@@ -18,7 +18,7 @@ import Questionnaire from "../Questionnaire";
 import GlobalLoading from "../../components/ui/GlobalLoading";
 import { useSelector } from "react-redux";
 
-// if authentificated user
+// if authentificated user 
 if (localStorage.jwtToken) {
   setAuthToken(localStorage.jwtToken);
   store.dispatch(UserGetting());
@@ -32,7 +32,7 @@ const App = () => {
 
   console.log(isLoading);
   return (
-    <Fragment>
+    <Fragment>  
       <GlobalLoading isloading = {isLoading}/>
       <Confirm />
       <GlobalStyle />
