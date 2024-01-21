@@ -83,7 +83,7 @@ const RecentClasses = () => {
             </DataItemWrapper>
             <DataItemWrapper>
               <DataItemInfo>{Class.anneescolaire}</DataItemInfo>
-            </DataItemWrapper>
+            </DataItemWrapper> 
             <DataItemWrapper>
               <OpenIcon onClick={OpenExamHandler} />
             </DataItemWrapper>

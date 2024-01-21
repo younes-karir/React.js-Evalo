@@ -56,7 +56,6 @@ const Header = () => {
   }
 
   const SettingsHandling = () =>{
-    // console.log('clicked')
     Dispatch(SettingsToggleShow())
   }
 

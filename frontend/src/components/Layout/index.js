@@ -13,7 +13,7 @@ const Layout = ({children}) => {
         <UIHelper />
         <SideBar />
         <ContentWrapper>
-          {children}
+          {children} 
         </ContentWrapper>
       </BodyContainer>
     </BodyWrapper>

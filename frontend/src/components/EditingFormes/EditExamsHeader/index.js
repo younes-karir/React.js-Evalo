@@ -58,7 +58,7 @@ const Container = () => {
                 <Label>Date de creation</Label>
                 <Input type="date" />
               </SubGroup>
-            </Group>
+            </Group> 
             <Group row="true">
               <SubmitContainer>
                 <Submit>Modifier</Submit>
